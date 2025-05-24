@@ -13,6 +13,7 @@
 						color: #2e7d32;
 				}
 				header {
+						background-image: url('https://i.ytimg.com/vi/GX_ksr1sJjQ/maxresdefault.jpg');
 						background-color: #66bb6a;
 						padding: 40px 20px;
 						text-align: center;
@@ -89,6 +90,24 @@
 								align-items: center;
 						}
 				}
+				.contenido-doble {
+						display: flex;
+						gap: 20px;
+						align-items: center;
+						flex-wrap: wrap;
+						margin-top: 20px;
+				}
+				.imagen-lateral {
+						flex: 1;
+						max-width: 50px;
+						width: 100%;
+						height: auto;
+						border-radius: 10px;
+				}	
+				.texto-lateral {
+						flex: 2;
+						min-width: 50px;
+				}
 		</style>
 </head>
 	<body>
@@ -108,7 +127,12 @@
 		<main>
 				<section id="quienes-somos">
 						<h2>🫂¿Quiénes somos?</h2>
-						<p>Biotech es un emprendimiento colombiano que ofrece un combustible ecológico, natural y sostenible elaborado con materiales reciclados como aserrín, carbón vegetal reutilizado y biomasa. Buscamos reducir el impacto ambiental del consumo energético tradicional y promover prácticas más limpias para el hogar y el campo.</p>
+						<div class= "contenido-doble">
+								<img src="https://us.123rf.com/450wm/musman007/musman0072409/musman007240916189/235559213-amigos-varones-participan-con-deleite-en-conversaci%C3%B3n-informal.jpg?ver=6" alt="Produccion de Combustible Ecologico" class="imagen lateral">
+								<div class="texto-lateral">
+										<p>Biotech es un emprendimiento colombiano que ofrece un combustible ecológico, natural y sostenible elaborado con materiales reciclados como aserrín, carbón vegetal reutilizado y biomasa. Buscamos reducir el impacto ambiental del consumo energético tradicional y promover prácticas más limpias para el hogar y el campo.</p>
+								</div>
+						</div>
 				</section>
 				<section>
 						<h2>🌱Componentes Basicos del Producto</h2>
